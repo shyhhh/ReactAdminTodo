@@ -1,4 +1,4 @@
-import { Statistics } from "../../Statistics/Statistics";
+import { Statistics } from "../../components/Statistics/Statistics";
 import { Orders } from "../../components/Orders/Orders";
 import { cardsData, groupNumber } from "../../data";
 import css from "./Dashboard.module.css";

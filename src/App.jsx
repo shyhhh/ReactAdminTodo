@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout";
+import { Calendar } from "./pages/Calendar/Calendar";
 import { DashBoard } from "./pages/DashBoard/DashBoard";
 
 export const App = () => {
@@ -9,6 +10,7 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="dashboard" element={<DashBoard />} />
+            <Route path="calendar" element={<Calendar />} />
           </Route>
         </Routes>
       </BrowserRouter>
